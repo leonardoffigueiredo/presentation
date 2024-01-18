@@ -37,7 +37,7 @@ p {
 
 .card-back {
     width: 25rem;
-    height: 500px;
+    height: 620px;
     background: var(--card);
     padding: 24px;
     display: flex;
@@ -69,7 +69,7 @@ p {
 
 .card {
     width: 25rem;
-    height: 500px;
+    height: 620px;
     background: var(--card);
     padding: 25px;
     display: flex;
@@ -291,7 +291,7 @@ h2:hover::before {
 .content-back button {
     display: flex;
     align-items: flex-end;
-    margin-top: 32px;
+    margin-top: 622px;
     padding: 20px;
 }
 
@@ -365,7 +365,7 @@ h2:hover::before {
     color: var(--titulo);
     font-size: 16px;
     padding: 4px;
-    margin-top: 4px;
+    margin-top: 137px;
     border-radius: 2px;
     cursor: pointer;
     transition: all 0.3s ease-in;
