@@ -1,78 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <!-- Definição do conjunto de caracteres e configuração da viewport -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título da página -->
     <title>Presentation Card</title>
+    <!-- Link para o arquivo de estilo CSS -->
     <link rel="stylesheet" href="styles.css">
+    <!-- Links para pré-conectar ao Google Fonts e carregar a biblioteca Font Awesome -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="icon" href="me-circle.png" type="image/x-png">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Ícone Favicon -->
+    <link rel="icon" href="me-circle.png" type="image/x-png">
 </head>
 <body>
-    
-        <section>
-            <div class="face">
-                <div class="card">
-        <span></span>
-        <span></span>
-        <div class="image">
-            <img src="me.jpg" alt="foto pessoal">
-         </div>   
-
-            <div class="content">
-                <h1>Leonardo Feitosa Figueiredo</h1>
-                <p>Studying Systems Development focusing on backend development, I will delve deeper
-                    my knowledge in backend, databases, and system architecture. I am interested in contributing to the development of efficient solutions, aiming to enhance the performance and functionality of applications. Additionally, I am open to new challenges that can broaden my experience and skills.
-                   </p>
+    <!-- Seção principal -->
+    <section>
+        <!-- Div principal representando a face do cartão -->
+        <div class="face">
+            <!-- Div do cartão frontal -->
+            <div class="card">
+                <!-- Elementos de decoração no cartão -->
+                <span></span>
+                <span></span>
+                <!-- Imagem pessoal -->
+                <div class="image">
+                    <img src="me.jpg" alt="foto pessoal">
+                </div>
+                <!-- Conteúdo do cartão -->
+                <div class="content">
+                    <h1>Leonardo Feitosa Figueiredo</h1>
+                    <p>
+                        Studying Systems Development focusing on backend development, I will delve deeper
+                        my knowledge in backend, databases, and system architecture. I am interested in contributing to the development of efficient solutions, aiming to enhance the performance and functionality of applications. Additionally, I am open to new challenges that can broaden my experience and skills.
+                    </p>
+                </div>
+                <!-- Botão "Learn More" -->
+                <button type="button" id="read-btn">Learn More</button>
+                <!-- Elementos de decoração no cartão -->
+                <span></span>
+                <span></span>
             </div>
-            <button type="button" id="read-btn">Learn More</button>  
 
-            <span></span>
-            <span></span>
-    </div>
-
-    <div class="card-back">
-        <span></span>
-        <span></span> 
-
-            <div class="content-back">
-                <h3>Social Networks</h3>
-                <div class="social-medias">
-                <a href="https://github.com/leonardoffigueiredo" class="social-media"><i class="fa-brands fa-github" ></i></a>
-                <a href="https://www.linkedin.com/in/leonardo-f-4820a5230/" class="social-media"><i class="fa-brands fa-linkedin" ></i></a>
-                <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWtDpJSFNCNsfwZzxpZxftXwgKLSspfvrbKvhRPCHqbSfjNpkbDQWxnKmSmcwZhDjPwgLBSsB" class="social-media"><i class="fa fa-briefcase" aria-hidden="true"></i></a>
-               </div>
-                
+            <!-- Div do cartão traseiro -->
+            <div class="card-back">
+                <!-- Elementos de decoração no cartão -->
+                <span></span>
+                <span></span> 
+                <!-- Conteúdo do cartão traseiro -->
+                <div class="content-back">
+                    <h3>Social Networks</h3>
+                    <!-- Links para redes sociais -->
+                    <div class="social-medias">
+                        <a href="https://github.com/leonardoffigueiredo" class="social-media"><i class="fa-brands fa-github" ></i></a>
+                        <a href="https://www.linkedin.com/in/leonardo-f-4820a5230/" class="social-media"><i class="fa-brands fa-linkedin" ></i></a>
+                        <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWtDpJSFNCNsfwZzxpZxftXwgKLSspfvrbKvhRPCHqbSfjNpkbDQWxnKmSmcwZhDjPwgLBSsB" class="social-media"><i class="fa fa-briefcase" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <!-- Cabeçalho para habilidades -->
+                <div class="h3">
+                    <h2>My Skills</h2>
+                </div>
+                <!-- Lista de habilidades -->
+                <div class="skills">
+                    <a>Html</a>
+                    <a>Css</a>
+                    <a>Javascript</a>
+                    <a>Git</a>
+                    <a>Python</a>
+                </div>
+                <!-- Botão "Back" -->
+                <div class="div-btn">
+                    <button type="button" id="read-btn2">Back</button> 
+                </div>
+                <!-- Elementos de decoração no cartão -->
+                <span></span>
+                <span></span>
             </div>
-            <div class="h3">
-                <h2>My Skills</h2>
-            </div>
-            
-            <div class="skills">
-            <a>Html</a>
-            <a>Css</a>
-            <a>Javascript</a>
-            <a>Git</a>
-            <a>Python</a>
-            
-            </div>
-            <div class="div-btn">
-                <button type="button" id="read-btn2">Back</button> 
-            </div>
-            
+        </div>
+    </section>
 
-            <span></span>
-            <span></span>
-    </div>
-            </div>
-        </section>
-            
-        <script src="script.js">
-
-        </script>
-
+    <!-- Inclusão do script JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>
